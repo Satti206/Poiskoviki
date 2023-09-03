@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Поиск на разных поисковиках</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      color: #333333;
+    }
+    form {
+      display: inline-block;
+      margin: 20px;
+      padding: 20px;
+      text-align: left;
+      background-color: rgba(255, 255, 255, 0.81);
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+<h1>Поиск на разных поисковиках</h1>
+
+<form action="https://www.google.com/search" method="GET">
+  <h2>Google</h2>
+  <input type="text" name="q" placeholder="Поиск в Google">
+  <button type="submit">Искать в Google</button>
+  <p><em>Google</em> - это мировой лидер в поисковых системах. Его мощный алгоритм помогает вам найти всё, что вам нужно в Интернете.</p>
+</form>
+
+<form action="https://yandex.ru/search" method="GET">
+  <h2>Yandex</h2>
+  <input type="text" name="text" placeholder="Поиск в Yandex">
+  <button type="submit">Искать в Yandex</button>
+  <p style="color: #ffbf00;">Yandex - это российский поисковик с множеством полезных сервисов, таких как Карты и Переводчик.</p>
+</form>
+
+<form action="https://www.bing.com/search" method="GET">
+  <h2>Bing</h2>
+  <input type="text" name="q" placeholder="Поиск в Bing">
+  <button type="submit">Искать в Bing</button>
+  <p><u>Bing</u> - это поисковая система от Microsoft, известная своими красивыми фоновыми изображениями.</p>
+</form>
+
+<form action="https://search.yahoo.com/search" method="GET">
+  <h2>Yahoo</h2>
+  <input type="text" name="p" placeholder="Поиск в Yahoo">
+  <button type="submit">Искать в Yahoo</button>
+  <p><strong>Yahoo!</strong> - это старейший поисковик, предоставляющий разнообразные новости и информацию.</p>
+</form>
+
+<form action="https://www.baidu.com/s" method="GET">
+  <h2>Baidu</h2>
+  <input type="text" name="wd" placeholder="Поиск в Baidu">
+  <button type="submit">Искать в Baidu</button>
+  <p style="font-style: italic; color: #E23F31;">Baidu - это китайский поисковик, аналог Google в Китае. Он предоставляет доступ к множеству китайских веб-ресурсов и является одним из самых популярных поисковых систем в стране.</p>
+</form>
+</body>
+</html>
